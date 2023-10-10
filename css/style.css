@@ -1,0 +1,32 @@
+/* CSS code for your lessons container */
+ul:nth-child(1) {
+    border: 2px solid red;
+}
+ul:nth-child(2) {
+    border: 2px solid green;
+}
+ul:nth-child(3) {
+    border: 2px solid blue;
+}
+ul:nth-child(4) {
+    border: 2px solid yellow;
+}
+ul:nth-child(5) {
+    border: 2px solid orange;
+}
+
+li:hover {
+    background-color: #FFC0CB;
+}
+
+li:active {
+    transform: scale(1.1);
+}
+
+li:nth-child(odd) {
+    color: #0000FF;
+}
+
+li:nth-child(even) {
+    color: #FF0000;
+}
